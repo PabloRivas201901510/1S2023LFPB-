@@ -1,0 +1,18 @@
+
+#CTRL + K, LUEGO PRESIONAR V
+digraph {
+    rankdir = TB
+
+    node[shape=circle, fontname="Arial Black", fontsize=16]
+    a[shape="pentagon", label="Estudiantes", 
+    color=green, style=filled]
+    b[fontcolor=red]
+    c[shape=record, 
+    label="izquierda | {arriba |centro |abajo} | derecha"]
+
+    edge[color=orange, label="arista 1", fontcolor=blue, fontsize=20]
+
+    a -> b
+    b -> c
+    c -> d
+}

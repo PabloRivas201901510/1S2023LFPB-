@@ -1,0 +1,22 @@
+digraph { 
+rankdir = LR 
+node[shape=record, fontname="Arial Black", fontsize=16] 
+S1[color=blue, style=filled, label="S1|2023"]
+S1[color=blue, style=filled, label="S1|2022"]
+S1[color=blue, style=filled, label="S1|2021"]
+S2[color=blue, style=filled, label="S2|2023"]
+S2[color=blue, style=filled, label="S2|2020"]
+S2[color=blue, style=filled, label="S2|2021"]
+S3[color=blue, style=filled, label="S3|2023"]
+S3[color=blue, style=filled, label="S3|2022"]
+S3[color=blue, style=filled, label="S3|2022"]
+S1->MANZANA
+S1->PERA
+S1->UVA
+S2->MANZANA
+S2->PIÑA
+S2->COCO
+S3->PERA
+S3->COCO
+S3->AGUACATE
+} 
