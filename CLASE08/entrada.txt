@@ -1,0 +1,11 @@
+
+
+{
+    "Operacion":"Suma"
+    "Valor1": 55
+    "Valor2": [
+        "Operacion":"Suma"
+        "Valor1": 60
+        "Valor2": 70
+    ]
+}
