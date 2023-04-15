@@ -1,0 +1,26 @@
+
+
+------------------------------------------------------------------
+
+EJEMPLO PROYECTO 2
+
+Funcion . Nombre . = . nueva . Funcion . ( atributo? ) . ;
+
+atributo
+( "ID" | "ID" . , . "JSON" )?
+
+JSON
+{ . "ID" . : "ID" . (, . "ID" . : "ID")* } 
+(, . { . $set . { . "ID" . : . "ID" . } . })?
+
+
+
+Funcion
+CrearBD | EliminarBD | CrearColeccion | EliminarColeccion
+
+
+
+
+
+
+
