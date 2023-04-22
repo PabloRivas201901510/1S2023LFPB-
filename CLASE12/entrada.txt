@@ -1,0 +1,2 @@
+
+CrearBD temp1 = nueva CrearBD();
