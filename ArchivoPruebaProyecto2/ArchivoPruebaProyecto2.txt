@@ -14,54 +14,39 @@ EliminarBD temp1 = nueva EliminarBD();
 
 CrearBD temp = nueva CrearBD();
 
-CrearColeccion colec = nueva CrearColeccion(“literaturas”);
+CrearColeccion colec = nueva CrearColeccion("literaturas");
 
-CrearColeccion colec = nueva CrearColeccion(“colectemp”);
+CrearColeccion colec = nueva CrearColeccion("colectemp");
 
-EliminarColeccion eliminacolec = nueva EliminarColeccion(“colectemp”);
+EliminarColeccion eliminacolec = nueva EliminarColeccion("colectemp");
 
-InsertarUnico insert1 = nueva InsertarUnico(“literaturas” ,
-“
+InsertarUnico insert1 = nueva InsertarUnico("literaturas" ,
+"
 {
  "nombre" : "Obra Literaria",
  "autor" : "Jorge Luis"
  }
-”);
+");
 
-InsertarUnico insert2 = nueva InsertarUnico(“literaturas” ,
-“
-{
- "nombre" : "El Principito",
- "autor" : "Antoine de Saint"
- }
-”);
 
-InsertarUnico insert3 = nueva InsertarUnico(“literaturas” ,
-“
-{
- "nombre" : "Moldavita. Un Visitante Amigable",
- "autor" : "Norma Muñoz Ledo"
- }
-”);
 
-ActualizarUnico actualizadoc = nueva ActualizarUnico(“literaturas”,
-“
+ActualizarUnico actualizadoc = nueva ActualizarUnico("literaturas",
+"
 {
  "nombre" : "Obra Literaria"
 },
 {
  $set: {"autor" : "Mario Vargas"}
 }
-”);
+");
 
-EliminarUnico eliminadoc = nueva EliminarUnico(“literaturas”,
-“
+EliminarUnico eliminadoc = nueva EliminarUnico("literaturas",
+"
 {
  "nombre" : "Obra Literaria"
 }
-”);
+");
 
-BuscarTodo todo = nueva BuscarTodo (“literaturas”);
+BuscarTodo todo = nueva BuscarTodo ("literaturas");
 
-BuscarUnico todo = nueva BuscarUnico (“literaturas”);
 
