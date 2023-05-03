@@ -1,35 +1,25 @@
 
 /* 
-	ARCHIVO DE PRUEBAS 
-	CON COMENTARIOS
+	ARCHIVO DE 
+	CALIFICACION
 */
 
 
---- CREAR BASE DE DATOS
+--- VAMOS A TRADUCIR EL CODIGO
+
+
 CrearBD temp1 = nueva CrearBD();
 
---- ELIMINAR BASE DE DATOS
 EliminarBD temp1 = nueva EliminarBD();
 
-/* 
-	BASE DE DATOS DE  LITERATURAS
-*/
-
---- CREAR BASE DE DATOS
 CrearBD temp = nueva CrearBD();
 
---- CREAR COLECCION DE LITERATURAS
 CrearColeccion colec = nueva CrearColeccion(“literaturas”);
 
---- CREAR COLECCION TEMPORAL
 CrearColeccion colec = nueva CrearColeccion(“colectemp”);
 
---- ELIMINAR COLECCION TEMPORAL
 EliminarColeccion eliminacolec = nueva EliminarColeccion(“colectemp”);
 
-/* 
-	INSERTAR DATOS
-*/
 InsertarUnico insert1 = nueva InsertarUnico(“literaturas” ,
 “
 {
@@ -54,7 +44,6 @@ InsertarUnico insert3 = nueva InsertarUnico(“literaturas” ,
  }
 ”);
 
---- ACTUALIZAR DATO DE COLECCION LITERATURA
 ActualizarUnico actualizadoc = nueva ActualizarUnico(“literaturas”,
 “
 {
@@ -65,7 +54,6 @@ ActualizarUnico actualizadoc = nueva ActualizarUnico(“literaturas”,
 }
 ”);
 
---- ELIMINAR DATO DE LA COLECCION LITERATURA
 EliminarUnico eliminadoc = nueva EliminarUnico(“literaturas”,
 “
 {
@@ -73,9 +61,7 @@ EliminarUnico eliminadoc = nueva EliminarUnico(“literaturas”,
 }
 ”);
 
---- BUSCAR TODOS LOS DATOS DE LA COLECCION
 BuscarTodo todo = nueva BuscarTodo (“literaturas”);
 
---- BUSCAR UN DATO POR COLECCION
 BuscarUnico todo = nueva BuscarUnico (“literaturas”);
 
