@@ -50,3 +50,4 @@ EliminarUnico eliminadoc = nueva EliminarUnico("literaturas",
 BuscarTodo todo = nueva BuscarTodo ("literaturas");
 
 
+BuscarUnico unic = nueva BuscarUnico ("literaturas");
